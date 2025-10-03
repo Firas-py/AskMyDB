@@ -3,7 +3,7 @@
 
 AI-powered question answering for your MySQL database using natural language.
 
-🌐 LIVE DEMO: *(Optional: Add your Streamlit app link here)*
+🌐 LIVE DEMO: askmydb.streamlit.app
 
 🚀 QUICK START
 --------------
