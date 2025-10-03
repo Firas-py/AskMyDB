@@ -1,40 +1,28 @@
-📊 AskMyDB
+📊 ASKMYDB
 
 AI-powered question answering for your MySQL database using natural language.
 
 🌐 LIVE DEMO: (Optional: Add your Streamlit app link here)
 
-🚀 Quick Start
+🚀 QUICK START
 
-Install dependencies
-pip install -r requirements.txt
+Install: pip install -r requirements.txt
 
-Configure
-Create a .env file in the project root with your settings:
-DB_USER=your_db_user
-DB_PASS=your_db_password
-DB_HOST=your_db_host
-DB_PORT=3306
-DB_NAME=your_db_name
-OPENROUTER_API_KEY=your_api_key_here
-DEEPSEEK_MODEL=deepseek/deepseek-chat-v3.1:free
+Configure: Update your .env file with settings below
 
-Run the app
-streamlit run app.py
+Run: streamlit run app.py
 
-📖 How to Use
+📖 HOW TO USE
 
-Open the app in your browser.
+Optional: Check "Show Database Schema" to see tables and columns
 
-Optional: Check Show Database Schema to see tables and columns.
+Type a question about your data in natural language
 
-Type a question about your data in natural language.
+Click "Get Answer"
 
-Click Get Answer.
+View the generated SQL query, query results, and AI explanation
 
-View the generated SQL query, query results, and AI explanation.
-
-✨ Features
+✨ FEATURES
 
 Natural language questions → SQL queries
 
@@ -46,21 +34,28 @@ Explains results in plain English
 
 Optional database schema preview
 
-⚙️ .ENV Configuration
-Variable	Description
-DB_USER	Database username
-DB_PASS	Database password
-DB_HOST	Database host (with port if needed)
-DB_PORT	Database port (default 3306)
-DB_NAME	Database name
-OPENROUTER_API_KEY	OpenRouter API key for AI SQL generation
-DEEPSEEK_MODEL	DeepSeek model (default: deepseek/deepseek-chat-v3.1:free)
-🔧 Troubleshooting
+⚙️ .ENV CONFIGURATION
 
-No results returned: Check your SQL permissions and database connection.
+DB_USER=your_db_user
 
-Invalid DB connection: Verify .env credentials and host/port.
+DB_PASS=your_db_password
 
-API errors: Verify OpenRouter API key in .env.
+DB_HOST=your_db_host
 
-SQL errors: Ensure the generated SQL matches your database schema.
+DB_PORT=3306
+
+DB_NAME=your_db_name
+
+OPENROUTER_API_KEY=your_api_key_here
+
+DEEPSEEK_MODEL=deepseek/deepseek-chat-v3.1:free
+
+🔧 TROUBLESHOOTING
+
+No results returned: Check your SQL permissions and database connection
+
+Invalid DB connection: Verify .env credentials and host/port
+
+API errors: Verify OpenRouter API key in .env
+
+SQL errors: Ensure the generated SQL matches your database schema
